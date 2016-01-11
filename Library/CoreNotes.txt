@@ -1,0 +1,6 @@
+Core Internals of Library - Current Activity
+--------------------------------------------
+These notes are a chronological analysis of the internal library issues.
+Often early notes become superceeded by later notes.
+=======================================================================
+

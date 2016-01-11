@@ -1,0 +1,12 @@
+Primary Mind Model Notes 24 September 2008.
+===========================================
+
+Experiment Objective
+====================
+To work out the minimal operational structure necessary to produce a primary mind.
+Related questions that this objective would also answer:
+   
+Experiment Method
+=================
+1) Start by constructing minimal structure, as per general theory.
+2) Incrementally add mechanisms as needed.

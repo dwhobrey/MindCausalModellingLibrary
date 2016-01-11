@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{00186BA3-6151-422F-B07D-6EFF21F4FB6B}</ProjectGuid>
+    <RootNamespace>Library</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.60610.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Library\include;$(SolutionDir)\Packages;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PlatoIncludes.h</PrecompiledHeaderFile>
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4634;4512;4100;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Lib>
+      <OutputFile>$(OutDir)Plato.lib</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Plato.h" />
+    <ClInclude Include="include\PlatoComponents.h" />
+    <ClInclude Include="include\PlatoIncludes.h" />
+    <ClInclude Include="include\PlatoStandard.h" />
+    <ClInclude Include="include\ClassCatalogue.h" />
+    <ClInclude Include="include\CommandLine.h" />
+    <ClInclude Include="include\Configuration.h" />
+    <ClInclude Include="include\Debug.h" />
+    <ClInclude Include="include\Diagnostics.h" />
+    <ClInclude Include="include\DiagnosticsCatalogue.h" />
+    <ClInclude Include="include\EnvironmentVariables.h" />
+    <ClInclude Include="include\InitializerCatalogue.h" />
+    <ClInclude Include="include\Trace.h" />
+    <ClInclude Include="include\Director.h" />
+    <ClInclude Include="include\Bundle.h" />
+    <ClInclude Include="include\Disposition.h" />
+    <ClInclude Include="include\Flow.h" />
+    <ClInclude Include="include\Phenomenon.h" />
+    <ClInclude Include="include\Region.h" />
+    <ClInclude Include="include\InputPad.h" />
+    <ClInclude Include="include\OutputPad.h" />
+    <ClInclude Include="include\Pad.h" />
+    <ClInclude Include="include\Filter.h" />
+    <ClInclude Include="include\GroupFilter.h" />
+    <ClInclude Include="include\IdentifierFilter.h" />
+    <ClInclude Include="include\NameFilter.h" />
+    <ClInclude Include="include\NeighbourhoodFilter.h" />
+    <ClInclude Include="include\PathFilter.h" />
+    <ClInclude Include="include\PointFilter.h" />
+    <ClInclude Include="include\SearchFilter.h" />
+    <ClInclude Include="include\TypeFilter.h" />
+    <ClInclude Include="include\TypeNameFilter.h" />
+    <ClInclude Include="include\VacantFilter.h" />
+    <ClInclude Include="include\Archiver.h" />
+    <ClInclude Include="include\Arguments.h" />
+    <ClInclude Include="include\ClassTypeInfo.h" />
+    <ClInclude Include="include\Numbers.h" />
+    <ClInclude Include="include\pstdint.h" />
+    <ClInclude Include="include\Regexes.h" />
+    <ClInclude Include="include\Strings.h" />
+    <ClInclude Include="include\ThreadLocalVariable.h" />
+    <ClInclude Include="include\ConstructorGenerator.h" />
+    <ClInclude Include="include\Generator.h" />
+    <ClInclude Include="include\IdentifierGenerator.h" />
+    <ClInclude Include="include\IdentityGenerator.h" />
+    <ClInclude Include="include\Bounds.h" />
+    <ClInclude Include="include\Geometry.h" />
+    <ClInclude Include="include\Scale.h" />
+    <ClInclude Include="include\Size.h" />
+    <ClInclude Include="include\CoordinateNames.h" />
+    <ClInclude Include="include\CoordinateOperations.h" />
+    <ClInclude Include="include\CoordinateSelection.h" />
+    <ClInclude Include="include\CylindricalSpace.h" />
+    <ClInclude Include="include\SphericalSpace.h" />
+    <ClInclude Include="include\Distribution.h" />
+    <ClInclude Include="include\DistributionEnumerator.h" />
+    <ClInclude Include="include\NormalDistribution.h" />
+    <ClInclude Include="include\NormalUnivariateDistribution.h" />
+    <ClInclude Include="include\Random.h" />
+    <ClInclude Include="include\RandomUnivariateDistribution.h" />
+    <ClInclude Include="include\UniformDistribution.h" />
+    <ClInclude Include="include\UniformUnivariateDistribution.h" />
+    <ClInclude Include="include\UnivariateDistribution.h" />
+    <ClInclude Include="include\UnivariateDistributionEnumerator.h" />
+    <ClInclude Include="include\BoxGeometry.h" />
+    <ClInclude Include="include\DiscGeometry.h" />
+    <ClInclude Include="include\LayerGeometry.h" />
+    <ClInclude Include="include\PipeGeometry.h" />
+    <ClInclude Include="include\SphereGeometry.h" />
+    <ClInclude Include="include\Location.h" />
+    <ClInclude Include="include\Locator.h" />
+    <ClInclude Include="include\PointLocator.h" />
+    <ClInclude Include="include\Converter.h" />
+    <ClInclude Include="include\Distributor.h" />
+    <ClInclude Include="include\Connector.h" />
+    <ClInclude Include="include\GroupContainer.h" />
+    <ClInclude Include="include\GroupTreeEnumerator.h" />
+    <ClInclude Include="include\Alias.h" />
+    <ClInclude Include="include\ConfigurePhases.h" />
+    <ClInclude Include="include\Container.h" />
+    <ClInclude Include="include\ContainerEnumerator.h" />
+    <ClInclude Include="include\Error.h" />
+    <ClInclude Include="include\ErrorContext.h" />
+    <ClInclude Include="include\ErrorMessage.h" />
+    <ClInclude Include="include\Identifier.h" />
+    <ClInclude Include="include\IdentifierEnumerator.h" />
+    <ClInclude Include="include\IdentifierRegex.h" />
+    <ClInclude Include="include\Link.h" />
+    <ClInclude Include="include\Model.h" />
+    <ClInclude Include="include\Path.h" />
+    <ClInclude Include="include\PathEnumerator.h" />
+    <ClInclude Include="include\PathNode.h" />
+    <ClInclude Include="include\PathNodeEnumerator.h" />
+    <ClInclude Include="include\PathOperators.h" />
+    <ClInclude Include="include\PathRegex.h" />
+    <ClInclude Include="include\Point.h" />
+    <ClInclude Include="include\PointEnumerator.h" />
+    <ClInclude Include="include\PointRegex.h" />
+    <ClInclude Include="include\PointSpace.h" />
+    <ClInclude Include="include\Property.h" />
+    <ClInclude Include="include\PropertyEnumerator.h" />
+    <ClInclude Include="include\PropertyModes.h" />
+    <ClInclude Include="include\PropertyScopes.h" />
+    <ClInclude Include="include\ResolutionModes.h" />
+    <ClInclude Include="include\ScopeEnumerator.h" />
+    <ClInclude Include="include\Search.h" />
+    <ClInclude Include="include\Constructor.h" />
+    <ClInclude Include="include\Producer.h" />
+    <ClInclude Include="include\ProducerListener.h" />
+    <ClInclude Include="include\ProducerModes.h" />
+    <ClInclude Include="include\SearchProducer.h" />
+    <ClInclude Include="include\BinaryRelator.h" />
+    <ClInclude Include="include\ConnectorRelator.h" />
+    <ClInclude Include="include\PathPairRelator.h" />
+    <ClInclude Include="include\ProximityRelator.h" />
+    <ClInclude Include="include\Relator.h" />
+    <ClInclude Include="include\ConverterRestrictor.h" />
+    <ClInclude Include="include\LocalRestrictor.h" />
+    <ClInclude Include="include\PathRestrictor.h" />
+    <ClInclude Include="include\Restrictor.h" />
+    <ClInclude Include="include\SearchTransducer.h" />
+    <ClInclude Include="include\Transducer.h" />
+    <ClInclude Include="include\GenericTranslator.h" />
+    <ClInclude Include="include\ReverseTranslator.h" />
+    <ClInclude Include="include\Translator.h" />
+    <ClInclude Include="include\ArchiverTest.h" />
+    <ClInclude Include="include\ContainerTest.h" />
+    <ClInclude Include="include\PathTest.h" />
+    <ClInclude Include="include\RegexesTest.h" />
+    <ClInclude Include="include\AnalogueDIDs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Standard\Configure\ClassCatalogue.cpp" />
+    <ClCompile Include="Standard\Configure\CommandLine.cpp" />
+    <ClCompile Include="Standard\Configure\Configuration.cpp" />
+    <ClCompile Include="Standard\Configure\Debug.cpp" />
+    <ClCompile Include="Standard\Configure\Diagnostics.cpp" />
+    <ClCompile Include="Standard\Configure\DiagnosticsCatalogue.cpp" />
+    <ClCompile Include="Standard\Configure\EnvironmentVariables.cpp" />
+    <ClCompile Include="Standard\Configure\InitializerCatalogue.cpp" />
+    <ClCompile Include="Standard\Configure\Trace.cpp" />
+    <ClCompile Include="Standard\Directors\Director.cpp" />
+    <ClCompile Include="Standard\Elements\Bundle.cpp" />
+    <ClCompile Include="Standard\Elements\Disposition.cpp" />
+    <ClCompile Include="Standard\Elements\Flow.cpp" />
+    <ClCompile Include="Standard\Elements\Phenomenon.cpp" />
+    <ClCompile Include="Standard\Elements\Region.cpp" />
+    <ClCompile Include="Standard\Elements\Pads\InputPad.cpp" />
+    <ClCompile Include="Standard\Elements\Pads\OutputPad.cpp" />
+    <ClCompile Include="Standard\Elements\Pads\Pad.cpp" />
+    <ClCompile Include="Standard\Filters\Filter.cpp" />
+    <ClCompile Include="Standard\Filters\GroupFilter.cpp" />
+    <ClCompile Include="Standard\Filters\IdentifierFilter.cpp" />
+    <ClCompile Include="Standard\Filters\NameFilter.cpp" />
+    <ClCompile Include="Standard\Filters\NeighbourhoodFilter.cpp" />
+    <ClCompile Include="Standard\Filters\PathFilter.cpp" />
+    <ClCompile Include="Standard\Filters\PointFilter.cpp" />
+    <ClCompile Include="Standard\Filters\SearchFilter.cpp" />
+    <ClCompile Include="Standard\Filters\TypeFilter.cpp" />
+    <ClCompile Include="Standard\Filters\TypeNameFilter.cpp" />
+    <ClCompile Include="Standard\Filters\VacantFilter.cpp" />
+    <ClCompile Include="Standard\General\Archiver.cpp" />
+    <ClCompile Include="Standard\General\Arguments.cpp" />
+    <ClCompile Include="Standard\General\ClassTypeInfo.cpp" />
+    <ClCompile Include="Standard\General\Numbers.cpp" />
+    <ClCompile Include="Standard\General\Regexes.cpp" />
+    <ClCompile Include="Standard\General\Strings.cpp" />
+    <ClCompile Include="Standard\Generators\ConstructorGenerator.cpp" />
+    <ClCompile Include="Standard\Generators\Generator.cpp" />
+    <ClCompile Include="Standard\Generators\IdentifierGenerator.cpp" />
+    <ClCompile Include="Standard\Generators\IdentityGenerator.cpp" />
+    <ClCompile Include="Standard\Geometries\Bounds.cpp" />
+    <ClCompile Include="Standard\Geometries\Geometry.cpp" />
+    <ClCompile Include="Standard\Geometries\Scale.cpp" />
+    <ClCompile Include="Standard\Geometries\Size.cpp" />
+    <ClCompile Include="Standard\Geometries\CoordinateSystems\CoordinateSelection.cpp" />
+    <ClCompile Include="Standard\Geometries\CoordinateSystems\CylindricalSpace.cpp" />
+    <ClCompile Include="Standard\Geometries\CoordinateSystems\SphericalSpace.cpp" />
+    <ClCompile Include="Standard\Geometries\Distributions\Distribution.cpp" />
+    <ClCompile Include="Standard\Geometries\Distributions\DistributionEnumerator.cpp" />
+    <ClCompile Include="Standard\Geometries\Distributions\NormalDistribution.cpp" />
+    <ClCompile Include="Standard\Geometries\Distributions\NormalUnivariateDistribution.cpp" />
+    <ClCompile Include="Standard\Geometries\Distributions\Random.cpp" />
+    <ClCompile Include="Standard\Geometries\Distributions\RandomUnivariateDistribution.cpp" />
+    <ClCompile Include="Standard\Geometries\Distributions\UniformDistribution.cpp" />
+    <ClCompile Include="Standard\Geometries\Distributions\UniformUnivariateDistribution.cpp" />
+    <ClCompile Include="Standard\Geometries\Distributions\UnivariateDistribution.cpp" />
+    <ClCompile Include="Standard\Geometries\Distributions\UnivariateDistributionEnumerator.cpp" />
+    <ClCompile Include="Standard\Geometries\Structures\BoxGeometry.cpp" />
+    <ClCompile Include="Standard\Geometries\Structures\DiscGeometry.cpp" />
+    <ClCompile Include="Standard\Geometries\Structures\LayerGeometry.cpp" />
+    <ClCompile Include="Standard\Geometries\Structures\PipeGeometry.cpp" />
+    <ClCompile Include="Standard\Geometries\Structures\SphereGeometry.cpp" />
+    <ClCompile Include="Standard\Locators\Location.cpp" />
+    <ClCompile Include="Standard\Locators\Locator.cpp" />
+    <ClCompile Include="Standard\Locators\PointLocator.cpp" />
+    <ClCompile Include="Standard\Operators\Converter.cpp" />
+    <ClCompile Include="Standard\Operators\Distributor.cpp" />
+    <ClCompile Include="Standard\Operators\Connectors\Connector.cpp" />
+    <ClCompile Include="Standard\Operators\Connectors\GroupContainer.cpp" />
+    <ClCompile Include="Standard\Operators\Connectors\GroupTreeEnumerator.cpp" />
+    <ClCompile Include="Standard\Primitives\Alias.cpp" />
+    <ClCompile Include="Standard\Primitives\Container.cpp" />
+    <ClCompile Include="Standard\Primitives\ContainerEnumerator.cpp" />
+    <ClCompile Include="Standard\Primitives\Error.cpp" />
+    <ClCompile Include="Standard\Primitives\ErrorContext.cpp" />
+    <ClCompile Include="Standard\Primitives\ErrorMessage.cpp" />
+    <ClCompile Include="Standard\Primitives\Identifier.cpp" />
+    <ClCompile Include="Standard\Primitives\IdentifierEnumerator.cpp" />
+    <ClCompile Include="Standard\Primitives\IdentifierRegex.cpp" />
+    <ClCompile Include="Standard\Primitives\Link.cpp" />
+    <ClCompile Include="Standard\Primitives\Model.cpp" />
+    <ClCompile Include="Standard\Primitives\Path.cpp" />
+    <ClCompile Include="Standard\Primitives\PathEnumerator.cpp" />
+    <ClCompile Include="Standard\Primitives\PathNode.cpp" />
+    <ClCompile Include="Standard\Primitives\PathNodeEnumerator.cpp" />
+    <ClCompile Include="Standard\Primitives\PathOperators.cpp" />
+    <ClCompile Include="Standard\Primitives\PathRegex.cpp" />
+    <ClCompile Include="Standard\Primitives\Point.cpp" />
+    <ClCompile Include="Standard\Primitives\PointRegex.cpp" />
+    <ClCompile Include="Standard\Primitives\PointSpace.cpp" />
+    <ClCompile Include="Standard\Primitives\Property.cpp" />
+    <ClCompile Include="Standard\Primitives\ScopeEnumerator.cpp" />
+    <ClCompile Include="Standard\Primitives\Search.cpp" />
+    <ClCompile Include="Standard\Producers\Constructor.cpp" />
+    <ClCompile Include="Standard\Producers\Producer.cpp" />
+    <ClCompile Include="Standard\Producers\ProducerListener.cpp" />
+    <ClCompile Include="Standard\Producers\SearchProducer.cpp" />
+    <ClCompile Include="Standard\Relators\BinaryRelator.cpp" />
+    <ClCompile Include="Standard\Relators\ConnectorRelator.cpp" />
+    <ClCompile Include="Standard\Relators\PathPairRelator.cpp" />
+    <ClCompile Include="Standard\Relators\ProximityRelator.cpp" />
+    <ClCompile Include="Standard\Relators\Relator.cpp" />
+    <ClCompile Include="Standard\Restrictors\ConverterRestrictor.cpp" />
+    <ClCompile Include="Standard\Restrictors\LocalRestrictor.cpp" />
+    <ClCompile Include="Standard\Restrictors\PathRestrictor.cpp" />
+    <ClCompile Include="Standard\Restrictors\Restrictor.cpp" />
+    <ClCompile Include="Standard\Transducers\SearchTransducer.cpp" />
+    <ClCompile Include="Standard\Transducers\Transducer.cpp" />
+    <ClCompile Include="Standard\Translators\GenericTranslator.cpp" />
+    <ClCompile Include="Standard\Translators\ReverseTranslator.cpp" />
+    <ClCompile Include="Standard\Translators\Translator.cpp" />
+    <ClCompile Include="Standard\UnitTest\ArchiverTest.cpp" />
+    <ClCompile Include="Standard\UnitTest\ContainerTest.cpp" />
+    <ClCompile Include="Standard\UnitTest\PathTest.cpp" />
+    <ClCompile Include="Standard\UnitTest\RegexesTest.cpp" />
+    <ClCompile Include="Components\AnalogueDIDs.cpp" />
+    <ClCompile Include="PlatoIncludes.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CoreNotes.txt" />
+    <Text Include="StandardNotes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Packages\pcrevs\pcre.vcxproj">
+      <Project>{0521ba1d-77f0-44e7-a8cc-66754f6e0381}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

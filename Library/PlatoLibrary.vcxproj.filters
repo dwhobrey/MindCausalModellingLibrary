@@ -1,0 +1,898 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include\Standard">
+      <UniqueIdentifier>{17a4cb0c-784d-418f-a271-c9a4166b1ca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Standard\Configure">
+      <UniqueIdentifier>{4a629a6d-f792-4d9d-a69f-09e7dbd9b372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Standard\Directors">
+      <UniqueIdentifier>{25ddb4a4-9158-482e-8f95-abc0fd33fa50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Standard\Elements">
+      <UniqueIdentifier>{061f63cb-97e6-4d10-b34c-ae1f587b1d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Standard\Elements\Pads">
+      <UniqueIdentifier>{5bd0c3df-9504-41a0-8867-5e06af8b7c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Standard\Filters">
+      <UniqueIdentifier>{69cca488-f969-4ed7-be1f-362519a86ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Standard\General">
+      <UniqueIdentifier>{a5c91c38-c0fd-4b1e-9ac1-c69967b590de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Standard\Generators">
+      <UniqueIdentifier>{9aa9c422-b25c-40fe-a3d3-327dc2264f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Standard\Geometries">
+      <UniqueIdentifier>{2e8f3c46-6fe6-4c63-93cc-bfe46d4ff412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Standard\Geometries\CoordinateSystems">
+      <UniqueIdentifier>{9c917af5-9b47-4706-ba78-34db86c9af89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Standard\Geometries\Distributions">
+      <UniqueIdentifier>{625283dc-9781-4560-bae5-13bc0873e7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Standard\Geometries\Structures">
+      <UniqueIdentifier>{1131d826-2b1c-4714-8698-8a4a431b80f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Standard\Locators">
+      <UniqueIdentifier>{b5b78e7b-8b0f-40eb-8f3b-1c39970584d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Standard\Operators">
+      <UniqueIdentifier>{e4809086-f4d6-49ab-ad67-1a95f42fbee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Standard\Operators\Connectors">
+      <UniqueIdentifier>{4b2919a9-3143-4694-ac3a-5f16dda6a09c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Standard\Primitives">
+      <UniqueIdentifier>{bee22fc7-8228-4326-bba0-b4110b8c6950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Standard\Producers">
+      <UniqueIdentifier>{cb398cd1-83e4-4daa-808a-3dd411bd65ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Standard\Relators">
+      <UniqueIdentifier>{dce5bf15-4c8d-4823-a76d-3a2c6f10b860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Standard\Restrictors">
+      <UniqueIdentifier>{94b9505e-a813-4ee2-b6e2-29d393276132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Standard\Transducers">
+      <UniqueIdentifier>{dbe2ce66-b914-48ee-a399-84dde1e2dcc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Standard\Translators">
+      <UniqueIdentifier>{0b07667b-6aeb-455c-b880-a988652f9fde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Standard\UnitTest">
+      <UniqueIdentifier>{4fbbe81c-a164-4262-876e-e046816a355f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Components">
+      <UniqueIdentifier>{eb66e050-4f63-457c-9850-d42d7ef299ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard">
+      <UniqueIdentifier>{7f346c08-1a49-4d71-a1b1-6209361a08a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\Configure">
+      <UniqueIdentifier>{2123b230-a33b-4da8-b1b0-7685b67a010e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\Directors">
+      <UniqueIdentifier>{63962955-989f-4265-9494-da03a50f8eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\Elements">
+      <UniqueIdentifier>{b965ba27-c60a-45d1-9c57-c519dba1e0cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\Elements\Pads">
+      <UniqueIdentifier>{b993dd14-8122-403f-bfb5-868f0c77e103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\Filters">
+      <UniqueIdentifier>{1756d94a-b0d4-481f-bd44-7142ce897f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\General">
+      <UniqueIdentifier>{548bc9fb-7a12-4702-a446-c4291f59a601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\Generators">
+      <UniqueIdentifier>{369ec14c-d4b0-49ca-a796-ce7b96b1e518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\Geometries">
+      <UniqueIdentifier>{ab7f0dff-82e7-4a88-a251-fd5841a8a5f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\Geometries\CoordinateSystems">
+      <UniqueIdentifier>{555c67d8-04d9-4d5a-83e3-3c2cc1fb7229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\Geometries\Distributions">
+      <UniqueIdentifier>{964c123d-db4d-4318-bdd5-7613a71cc553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\Geometries\Structures">
+      <UniqueIdentifier>{52fb60b5-b3c9-4573-b498-0bc6fbc530a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\Locators">
+      <UniqueIdentifier>{388f9a67-3274-4d5b-bc9e-9b35f160c102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\Operators">
+      <UniqueIdentifier>{f9d67328-cd51-40ee-be26-4cf3faa7f6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\Operators\Connectors">
+      <UniqueIdentifier>{df0ddde4-9a19-4e9c-9a2b-adc7657c35b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\Primitives">
+      <UniqueIdentifier>{a63a08d3-9363-4496-992c-8cdc2554c295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\Producers">
+      <UniqueIdentifier>{ef6f411f-3683-4818-9a50-f2422bb20e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\Relators">
+      <UniqueIdentifier>{007b8596-e84d-4e55-82b0-febcd8b90ad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\Restrictors">
+      <UniqueIdentifier>{5f8f84ab-b991-4108-9534-b3c4104faa47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\Transducers">
+      <UniqueIdentifier>{3d910510-097f-4197-aac1-45baf787a010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\Translators">
+      <UniqueIdentifier>{2bb5211d-d61b-44c7-8bd6-574ab6b60c8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Standard\UnitTest">
+      <UniqueIdentifier>{1a831715-9de1-4cae-976a-275c37401fb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{3bbd6768-04a8-4965-aa87-c6a55230c406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Notes">
+      <UniqueIdentifier>{d19b9b7a-0955-4e19-87e6-6c0be2b7258b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Plato.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PlatoComponents.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PlatoIncludes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PlatoStandard.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ClassCatalogue.h">
+      <Filter>include\Standard\Configure</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommandLine.h">
+      <Filter>include\Standard\Configure</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Configuration.h">
+      <Filter>include\Standard\Configure</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Debug.h">
+      <Filter>include\Standard\Configure</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Diagnostics.h">
+      <Filter>include\Standard\Configure</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DiagnosticsCatalogue.h">
+      <Filter>include\Standard\Configure</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EnvironmentVariables.h">
+      <Filter>include\Standard\Configure</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InitializerCatalogue.h">
+      <Filter>include\Standard\Configure</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Trace.h">
+      <Filter>include\Standard\Configure</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Director.h">
+      <Filter>include\Standard\Directors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Bundle.h">
+      <Filter>include\Standard\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Disposition.h">
+      <Filter>include\Standard\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Flow.h">
+      <Filter>include\Standard\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Phenomenon.h">
+      <Filter>include\Standard\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Region.h">
+      <Filter>include\Standard\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InputPad.h">
+      <Filter>include\Standard\Elements\Pads</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OutputPad.h">
+      <Filter>include\Standard\Elements\Pads</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Pad.h">
+      <Filter>include\Standard\Elements\Pads</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Filter.h">
+      <Filter>include\Standard\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GroupFilter.h">
+      <Filter>include\Standard\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IdentifierFilter.h">
+      <Filter>include\Standard\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NameFilter.h">
+      <Filter>include\Standard\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NeighbourhoodFilter.h">
+      <Filter>include\Standard\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PathFilter.h">
+      <Filter>include\Standard\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PointFilter.h">
+      <Filter>include\Standard\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SearchFilter.h">
+      <Filter>include\Standard\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TypeFilter.h">
+      <Filter>include\Standard\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TypeNameFilter.h">
+      <Filter>include\Standard\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VacantFilter.h">
+      <Filter>include\Standard\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Archiver.h">
+      <Filter>include\Standard\General</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Arguments.h">
+      <Filter>include\Standard\General</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ClassTypeInfo.h">
+      <Filter>include\Standard\General</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Numbers.h">
+      <Filter>include\Standard\General</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pstdint.h">
+      <Filter>include\Standard\General</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Regexes.h">
+      <Filter>include\Standard\General</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Strings.h">
+      <Filter>include\Standard\General</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ThreadLocalVariable.h">
+      <Filter>include\Standard\General</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ConstructorGenerator.h">
+      <Filter>include\Standard\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Generator.h">
+      <Filter>include\Standard\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IdentifierGenerator.h">
+      <Filter>include\Standard\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IdentityGenerator.h">
+      <Filter>include\Standard\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Bounds.h">
+      <Filter>include\Standard\Geometries</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Geometry.h">
+      <Filter>include\Standard\Geometries</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scale.h">
+      <Filter>include\Standard\Geometries</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Size.h">
+      <Filter>include\Standard\Geometries</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CoordinateNames.h">
+      <Filter>include\Standard\Geometries\CoordinateSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CoordinateOperations.h">
+      <Filter>include\Standard\Geometries\CoordinateSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CoordinateSelection.h">
+      <Filter>include\Standard\Geometries\CoordinateSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CylindricalSpace.h">
+      <Filter>include\Standard\Geometries\CoordinateSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SphericalSpace.h">
+      <Filter>include\Standard\Geometries\CoordinateSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Distribution.h">
+      <Filter>include\Standard\Geometries\Distributions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DistributionEnumerator.h">
+      <Filter>include\Standard\Geometries\Distributions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NormalDistribution.h">
+      <Filter>include\Standard\Geometries\Distributions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NormalUnivariateDistribution.h">
+      <Filter>include\Standard\Geometries\Distributions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Random.h">
+      <Filter>include\Standard\Geometries\Distributions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RandomUnivariateDistribution.h">
+      <Filter>include\Standard\Geometries\Distributions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UniformDistribution.h">
+      <Filter>include\Standard\Geometries\Distributions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UniformUnivariateDistribution.h">
+      <Filter>include\Standard\Geometries\Distributions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnivariateDistribution.h">
+      <Filter>include\Standard\Geometries\Distributions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnivariateDistributionEnumerator.h">
+      <Filter>include\Standard\Geometries\Distributions</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BoxGeometry.h">
+      <Filter>include\Standard\Geometries\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DiscGeometry.h">
+      <Filter>include\Standard\Geometries\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LayerGeometry.h">
+      <Filter>include\Standard\Geometries\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PipeGeometry.h">
+      <Filter>include\Standard\Geometries\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SphereGeometry.h">
+      <Filter>include\Standard\Geometries\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Location.h">
+      <Filter>include\Standard\Locators</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Locator.h">
+      <Filter>include\Standard\Locators</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PointLocator.h">
+      <Filter>include\Standard\Locators</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Converter.h">
+      <Filter>include\Standard\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Distributor.h">
+      <Filter>include\Standard\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Connector.h">
+      <Filter>include\Standard\Operators\Connectors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GroupContainer.h">
+      <Filter>include\Standard\Operators\Connectors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GroupTreeEnumerator.h">
+      <Filter>include\Standard\Operators\Connectors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Alias.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ConfigurePhases.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Container.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ContainerEnumerator.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Error.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ErrorContext.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ErrorMessage.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Identifier.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IdentifierEnumerator.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IdentifierRegex.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Link.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Path.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PathEnumerator.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PathNode.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PathNodeEnumerator.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PathOperators.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PathRegex.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Point.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PointEnumerator.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PointRegex.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PointSpace.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Property.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PropertyEnumerator.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PropertyModes.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PropertyScopes.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ResolutionModes.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ScopeEnumerator.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Search.h">
+      <Filter>include\Standard\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Constructor.h">
+      <Filter>include\Standard\Producers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Producer.h">
+      <Filter>include\Standard\Producers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProducerListener.h">
+      <Filter>include\Standard\Producers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProducerModes.h">
+      <Filter>include\Standard\Producers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SearchProducer.h">
+      <Filter>include\Standard\Producers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BinaryRelator.h">
+      <Filter>include\Standard\Relators</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ConnectorRelator.h">
+      <Filter>include\Standard\Relators</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PathPairRelator.h">
+      <Filter>include\Standard\Relators</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProximityRelator.h">
+      <Filter>include\Standard\Relators</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Relator.h">
+      <Filter>include\Standard\Relators</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ConverterRestrictor.h">
+      <Filter>include\Standard\Restrictors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LocalRestrictor.h">
+      <Filter>include\Standard\Restrictors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PathRestrictor.h">
+      <Filter>include\Standard\Restrictors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Restrictor.h">
+      <Filter>include\Standard\Restrictors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SearchTransducer.h">
+      <Filter>include\Standard\Transducers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Transducer.h">
+      <Filter>include\Standard\Transducers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GenericTranslator.h">
+      <Filter>include\Standard\Translators</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ReverseTranslator.h">
+      <Filter>include\Standard\Translators</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Translator.h">
+      <Filter>include\Standard\Translators</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ArchiverTest.h">
+      <Filter>include\Standard\UnitTest</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ContainerTest.h">
+      <Filter>include\Standard\UnitTest</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PathTest.h">
+      <Filter>include\Standard\UnitTest</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RegexesTest.h">
+      <Filter>include\Standard\UnitTest</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AnalogueDIDs.h">
+      <Filter>include\Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Standard\Configure\ClassCatalogue.cpp">
+      <Filter>Standard\Configure</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Configure\CommandLine.cpp">
+      <Filter>Standard\Configure</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Configure\Configuration.cpp">
+      <Filter>Standard\Configure</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Configure\Debug.cpp">
+      <Filter>Standard\Configure</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Configure\Diagnostics.cpp">
+      <Filter>Standard\Configure</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Configure\DiagnosticsCatalogue.cpp">
+      <Filter>Standard\Configure</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Configure\EnvironmentVariables.cpp">
+      <Filter>Standard\Configure</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Configure\InitializerCatalogue.cpp">
+      <Filter>Standard\Configure</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Configure\Trace.cpp">
+      <Filter>Standard\Configure</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Directors\Director.cpp">
+      <Filter>Standard\Directors</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Elements\Bundle.cpp">
+      <Filter>Standard\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Elements\Disposition.cpp">
+      <Filter>Standard\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Elements\Flow.cpp">
+      <Filter>Standard\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Elements\Phenomenon.cpp">
+      <Filter>Standard\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Elements\Region.cpp">
+      <Filter>Standard\Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Elements\Pads\InputPad.cpp">
+      <Filter>Standard\Elements\Pads</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Elements\Pads\OutputPad.cpp">
+      <Filter>Standard\Elements\Pads</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Elements\Pads\Pad.cpp">
+      <Filter>Standard\Elements\Pads</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Filters\Filter.cpp">
+      <Filter>Standard\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Filters\GroupFilter.cpp">
+      <Filter>Standard\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Filters\IdentifierFilter.cpp">
+      <Filter>Standard\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Filters\NameFilter.cpp">
+      <Filter>Standard\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Filters\NeighbourhoodFilter.cpp">
+      <Filter>Standard\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Filters\PathFilter.cpp">
+      <Filter>Standard\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Filters\PointFilter.cpp">
+      <Filter>Standard\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Filters\SearchFilter.cpp">
+      <Filter>Standard\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Filters\TypeFilter.cpp">
+      <Filter>Standard\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Filters\TypeNameFilter.cpp">
+      <Filter>Standard\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Filters\VacantFilter.cpp">
+      <Filter>Standard\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\General\Archiver.cpp">
+      <Filter>Standard\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\General\Arguments.cpp">
+      <Filter>Standard\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\General\ClassTypeInfo.cpp">
+      <Filter>Standard\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\General\Numbers.cpp">
+      <Filter>Standard\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\General\Regexes.cpp">
+      <Filter>Standard\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\General\Strings.cpp">
+      <Filter>Standard\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Generators\ConstructorGenerator.cpp">
+      <Filter>Standard\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Generators\Generator.cpp">
+      <Filter>Standard\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Generators\IdentifierGenerator.cpp">
+      <Filter>Standard\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Generators\IdentityGenerator.cpp">
+      <Filter>Standard\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\Bounds.cpp">
+      <Filter>Standard\Geometries</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\Geometry.cpp">
+      <Filter>Standard\Geometries</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\Scale.cpp">
+      <Filter>Standard\Geometries</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\Size.cpp">
+      <Filter>Standard\Geometries</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\CoordinateSystems\CoordinateSelection.cpp">
+      <Filter>Standard\Geometries\CoordinateSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\CoordinateSystems\CylindricalSpace.cpp">
+      <Filter>Standard\Geometries\CoordinateSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\CoordinateSystems\SphericalSpace.cpp">
+      <Filter>Standard\Geometries\CoordinateSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\Distributions\Distribution.cpp">
+      <Filter>Standard\Geometries\Distributions</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\Distributions\DistributionEnumerator.cpp">
+      <Filter>Standard\Geometries\Distributions</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\Distributions\NormalDistribution.cpp">
+      <Filter>Standard\Geometries\Distributions</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\Distributions\NormalUnivariateDistribution.cpp">
+      <Filter>Standard\Geometries\Distributions</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\Distributions\Random.cpp">
+      <Filter>Standard\Geometries\Distributions</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\Distributions\RandomUnivariateDistribution.cpp">
+      <Filter>Standard\Geometries\Distributions</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\Distributions\UniformDistribution.cpp">
+      <Filter>Standard\Geometries\Distributions</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\Distributions\UniformUnivariateDistribution.cpp">
+      <Filter>Standard\Geometries\Distributions</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\Distributions\UnivariateDistribution.cpp">
+      <Filter>Standard\Geometries\Distributions</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\Distributions\UnivariateDistributionEnumerator.cpp">
+      <Filter>Standard\Geometries\Distributions</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\Structures\BoxGeometry.cpp">
+      <Filter>Standard\Geometries\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\Structures\DiscGeometry.cpp">
+      <Filter>Standard\Geometries\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\Structures\LayerGeometry.cpp">
+      <Filter>Standard\Geometries\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\Structures\PipeGeometry.cpp">
+      <Filter>Standard\Geometries\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Geometries\Structures\SphereGeometry.cpp">
+      <Filter>Standard\Geometries\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Locators\Location.cpp">
+      <Filter>Standard\Locators</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Locators\Locator.cpp">
+      <Filter>Standard\Locators</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Locators\PointLocator.cpp">
+      <Filter>Standard\Locators</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Operators\Converter.cpp">
+      <Filter>Standard\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Operators\Distributor.cpp">
+      <Filter>Standard\Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Operators\Connectors\Connector.cpp">
+      <Filter>Standard\Operators\Connectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Operators\Connectors\GroupContainer.cpp">
+      <Filter>Standard\Operators\Connectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Operators\Connectors\GroupTreeEnumerator.cpp">
+      <Filter>Standard\Operators\Connectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\Alias.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\Container.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\ContainerEnumerator.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\Error.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\ErrorContext.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\ErrorMessage.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\Identifier.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\IdentifierEnumerator.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\IdentifierRegex.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\Link.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\Model.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\Path.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\PathEnumerator.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\PathNode.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\PathNodeEnumerator.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\PathOperators.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\PathRegex.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\Point.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\PointRegex.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\PointSpace.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\Property.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\ScopeEnumerator.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Primitives\Search.cpp">
+      <Filter>Standard\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Producers\Constructor.cpp">
+      <Filter>Standard\Producers</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Producers\Producer.cpp">
+      <Filter>Standard\Producers</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Producers\ProducerListener.cpp">
+      <Filter>Standard\Producers</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Producers\SearchProducer.cpp">
+      <Filter>Standard\Producers</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Relators\BinaryRelator.cpp">
+      <Filter>Standard\Relators</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Relators\ConnectorRelator.cpp">
+      <Filter>Standard\Relators</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Relators\PathPairRelator.cpp">
+      <Filter>Standard\Relators</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Relators\ProximityRelator.cpp">
+      <Filter>Standard\Relators</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Relators\Relator.cpp">
+      <Filter>Standard\Relators</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Restrictors\ConverterRestrictor.cpp">
+      <Filter>Standard\Restrictors</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Restrictors\LocalRestrictor.cpp">
+      <Filter>Standard\Restrictors</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Restrictors\PathRestrictor.cpp">
+      <Filter>Standard\Restrictors</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Restrictors\Restrictor.cpp">
+      <Filter>Standard\Restrictors</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Transducers\SearchTransducer.cpp">
+      <Filter>Standard\Transducers</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Transducers\Transducer.cpp">
+      <Filter>Standard\Transducers</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Translators\GenericTranslator.cpp">
+      <Filter>Standard\Translators</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Translators\ReverseTranslator.cpp">
+      <Filter>Standard\Translators</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\Translators\Translator.cpp">
+      <Filter>Standard\Translators</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\UnitTest\ArchiverTest.cpp">
+      <Filter>Standard\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\UnitTest\ContainerTest.cpp">
+      <Filter>Standard\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\UnitTest\PathTest.cpp">
+      <Filter>Standard\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Standard\UnitTest\RegexesTest.cpp">
+      <Filter>Standard\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\AnalogueDIDs.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatoIncludes.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CoreNotes.txt">
+      <Filter>Notes</Filter>
+    </Text>
+    <Text Include="StandardNotes.txt">
+      <Filter>Notes</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

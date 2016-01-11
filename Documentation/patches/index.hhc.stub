@@ -1,0 +1,8 @@
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Introduction"><param name="Local" value="docs/Plato.html"><param name="ImageNumber" value="11"></OBJECT>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="License"><param name="Local" value="docs/License.html"><param name="ImageNumber" value="11"></OBJECT>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Links"><param name="Local" value="docs/Links.html"><param name="ImageNumber" value="11"></OBJECT>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="General Reference"><param name="Local" value="docs/GeneralReference/GeneralReference.html"><param name="ImageNumber" value="1"></OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Standard Library"><param name="Local" value="docs/GeneralReference/StandardLibrary.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Components Library"><param name="Local" value="docs/GeneralReference/ComponentsLibrary.html"><param name="ImageNumber" value="11"></OBJECT>
+</UL>

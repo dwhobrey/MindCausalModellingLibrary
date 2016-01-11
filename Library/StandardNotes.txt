@@ -1,0 +1,7 @@
+Standard Modelling Library - Current Activity
+---------------------------------------------
+These notes are a chronological analysis of the modelling requirements.
+Often early notes become superceeded by later notes.
+=======================================================================
+
+
