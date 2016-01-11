@@ -1,0 +1,62 @@
+Plato License
+--------------
+
+Plato is a cognitive engine in the form of a class library.
+
+This release of Plato is distributed under the terms of the license, as
+specified below. The documentation for Plato, supplied in the "Documentation"
+directory, is distributed under the same terms as the software itself.
+
+The basic library functions are written in C++ and are freestanding,
+apart from the following library dependencies:
+
+1) PCRE regular expression library.
+
+End of dependencies.
+
+THE BASIC LIBRARY FUNCTIONS
+---------------------------
+
+Written by:       Darren Whobrey
+Email local part: dwhobrey
+Email domain:     outlook.com
+
+Copyright (c) 1999-2008 DJR Whobrey.
+All rights reserved.
+
+
+THE LICENSE
+-----------
+The license is equivalent to the Simplified BSD License as approved by the
+OSI Board on January 9th, 2008:
+
+Copyright (c) 1999-2008, D.J.R.Whobrey, Mild AI Organisation.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer. 
+
+Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+ 
+Neither the name of the Mild AI Organisation nor the names of its contributors
+may be used to endorse or promote products derived from this software
+without specific prior written permission.
+ 
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+End
